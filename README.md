@@ -10,8 +10,8 @@ This repository provides a minimal CMake-based C++ application build template fo
 
 ## How-To build
 ```shell
-git clone https://github.com/<ORGANIZATION>/<NAME>.git
-cd <NAME>
+git clone https://github.com/easy-peasy-robotics/easy-peasy-modules.git
+cd easy-peasy-modules
 mkdir build && cd build
 cmake ..
 cmake --build .
