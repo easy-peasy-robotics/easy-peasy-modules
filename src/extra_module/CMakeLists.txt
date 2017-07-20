@@ -1,4 +1,4 @@
-set(EXE_TARGET_NAME module3)
+set(EXE_TARGET_NAME extra_module)
 
 find_package(OpenCV REQUIRED)
 find_package(YARP   REQUIRED)

@@ -1,4 +1,4 @@
-set(EXE_TARGET_NAME module2)
+set(EXE_TARGET_NAME vision_module)
 
 find_package(OpenCV REQUIRED)
 find_package(YARP   REQUIRED)

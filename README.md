@@ -1,12 +1,12 @@
-easy-peasy-cmake
+easy-peasy-modules
 ===========
 
-This repository provides an OS-agnostic, C++, CMake-based application template for the easy-peasy-robotics Day2 assignment.
+This repository provides a minimal CMake-based C++ application build template for the easy-peasy-robotics Day2 assignment.
 
 ## Dependencies
  - [iCubContrib](http://wiki.icub.org/iCub/contrib/dox/html/index.html)
  - [OpenCV](http://opencv.org)
- - [Yet Another Robot Platform, YARP](http://www.yarp.it)
+ - [YARP](http://www.yarp.it)
 
 ## How-To build
 ```shell
