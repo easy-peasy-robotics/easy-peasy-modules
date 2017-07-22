@@ -5,7 +5,6 @@ This repository provides a minimal CMake-based C++ application build template fo
 
 ## Dependencies
  - [iCubContrib](http://wiki.icub.org/iCub/contrib/dox/html/index.html)
- - [OpenCV](http://opencv.org)
  - [YARP](http://www.yarp.it)
 
 ## How-To build
