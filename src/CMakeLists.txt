@@ -1,3 +1,0 @@
-add_subdirectory(control_module)
-add_subdirectory(vision_module)
-add_subdirectory(extra_module)

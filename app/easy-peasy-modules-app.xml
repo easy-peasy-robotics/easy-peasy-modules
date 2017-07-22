@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="yarpmanifest.xsl"?>
+<application>
+
+    <!-- GENERIC INFORMATION -->
+    <name>easy-peasy-modules-app</name>
+    <description>This YARP application handles executables and connections of the final assignment of the campus party</description>
+    <version>1.0.0</version>
+
+
+    <!-- REQUIRED MODULES -->
+    <module>
+        <name>vision_module</name>
+        <parameters>--param 1</parameters>
+        <node>localhost</node>
+    </module>
+
+
+    <!-- REQUIRED CONNECTIONS -->
+    <!--connection>
+        <from>/vision_module/port_example:o</from>
+        <to>/control_module/port_example:i</to>
+        <protocol>tcp</protocol>
+    </connection-->
+
+</application>

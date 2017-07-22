@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="yarpmanifest.xsl"?>
+<application>
+
+    <!-- GENERIC INFORMATION -->
+    <name>easy-peasy-modules-system</name>
+    <description>Final assignment of the campus party</description>
+    <version>1.0.0</version>
+
+
+    <!-- REQUIRED MODULES -->
+    <module>
+        <name>yarplogger</name>
+        <parameters>--start --no_stop</parameters>
+        <node>localhost</node>
+    </module>
+
+    <module>
+        <name>iCub_SIM</name>
+        <dependencies>
+            <port timeout="20">/yarplogger</port>
+        </dependencies>
+        <environment>YARP_FORWARD_LOG_ENABLE=1</environment>
+        <node>localhost</node>
+    </module>
+
+</application>
