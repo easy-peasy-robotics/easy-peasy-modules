@@ -10,7 +10,7 @@
 
     <!-- REQUIRED MODULES -->
     <module>
-        <name>vision_module</name>
+        <name>control_module</name>
         <parameters>--param 1</parameters>
         <node>localhost</node>
     </module>

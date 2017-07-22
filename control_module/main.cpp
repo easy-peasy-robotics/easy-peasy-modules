@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[])
 {
-    std::cout << "Hello vision module!" << std::endl;
+    std::cout << "Hello control module!" << std::endl;
 
     return EXIT_SUCCESS;
 }
